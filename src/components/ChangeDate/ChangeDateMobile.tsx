@@ -45,7 +45,7 @@ export default function ChangeDateMobile({
             className="w-full px-4 py-3 flex justify-between items-center hover:bg-gray-50"
           >
             <div className="flex gap-4">
-              <div className="relative w-[38px] h-[48px]">
+              <div className="relative w-[38px] h-[48px] flex-shrink-0">
                 <Image
                   src={address1 || "/placeholder.svg"}
                   alt="address icon"
@@ -61,7 +61,7 @@ export default function ChangeDateMobile({
             </div>
 
             <svg
-              className={`w-5 h-5 transition-transform ${
+              className={`w-5 h-5 flex-shrink-0 transition-transform ${
                 expandedAddresses.includes(address.id) ? "rotate-180" : ""
               }`}
               fill="none"
@@ -102,7 +102,7 @@ export default function ChangeDateMobile({
                   </div>
                 </div>
 
-                <div className="space-y-2 ml-16">
+                <div className="space-y-2 ml-0 sm:ml-16">
                   {product.items.map((item, itemIndex) => (
                     <div
                       key={itemIndex}
