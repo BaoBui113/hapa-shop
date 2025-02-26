@@ -1,9 +1,9 @@
-import Banner from "@/components/Banner";
+import ChangeDate from "@/components/ChangeDate";
 
 export default function Home() {
   return (
     <>
-      <Banner />
+      <ChangeDate />
     </>
   );
 }
