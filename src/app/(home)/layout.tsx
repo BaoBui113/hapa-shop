@@ -36,7 +36,7 @@ export default function UserLayout({
                 <Image src={icon_show_mobile} alt="icon_show_mobile" fill />
               </div>
             </div>
-            <h3 className="px-10 pt-20 font-bold text-[40px] text-white">
+            <h3 className="px-10 pt-10 sm:pt-20 font-bold text-[40px] text-white">
               Thay lõi lọc định kỳ
             </h3>
             <div className="absolute right-[262px] top-0 w-[252px] h-[316px] z-0">
