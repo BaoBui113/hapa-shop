@@ -28,7 +28,7 @@ export default function UserLayout({
             }}
             className="w-full h-[368px] relative"
           >
-            <div className="flex justify-between items-center px-4 py-2">
+            <div className="flex justify-between items-center px-4 py-2 md:hidden ">
               <div className="w-[112px] h-6 relative">
                 <Image src={icon_logo_mobile} alt="icon_logo_mobile" fill />
               </div>
